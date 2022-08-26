@@ -1,3 +1,7 @@
+@import "./utils/hidden";
+@import "./base/common";
+@import "./base/logo";
+@import "./components/container";
 @import "./header";
 @import "./connection";
 @import "./hero";
@@ -8,7 +12,5 @@
 @import "./teammate_icon";
 @import "./footer";
 @import "./contacts";
-@import "./footer_form";
 @import "./modals";
-@import "./portfolio_filter";
-@import "./portfolio_projekt";
+@import "./portfolio";
