@@ -1,16 +1,20 @@
 @import "./utils/hidden";
+
 @import "./base/common";
 @import "./base/logo";
+@import "./base/connection";
+@import "./base/teammate_icon";
+
 @import "./components/container";
-@import "./header";
-@import "./connection";
-@import "./hero";
-@import "./benefits";
-@import "./promo";
-@import "./about";
-@import "./clients";
-@import "./teammate_icon";
-@import "./footer";
-@import "./contacts";
-@import "./modals";
-@import "./portfolio";
+@import "./components/benefits";
+@import "./components/promo";
+@import "./components/about";
+@import "./components/clients";
+@import "./components/contacts";
+@import "./components/modals";
+
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/footer";
+@import "./layouts/portfolio_filter";
+@import "./layouts/portfolio_projekt";
