@@ -17,6 +17,10 @@
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+    }
 }
 
 .footer-mail,
@@ -28,19 +32,8 @@
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-link-adress:hover,
-.footer-link-adress:focus {
-  color: var(--accent-color);
-}
-
-.footer-mail:hover,
-.footer-mail:focus {
-  color: var(--accent-color);
-}
-
-.footer-tel:hover,
-.footer-tel:focus {
-  color: var(--accent-color);
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+    }
 }

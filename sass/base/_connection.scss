@@ -1,10 +1,9 @@
 .connection-list {
   display: flex;
   margin-left: auto;
-}
-
-.connection-list .connection-item + .connection-item {
-  margin-left: 50px;
+      & .connection-item + .connection-item {
+      margin-left: 50px;
+    }
 }
 
 .connection-mail,
@@ -16,6 +15,10 @@
   color: var(--second-text-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+    }
 }
 
 .mail-icon,
@@ -23,14 +26,4 @@
   display: inline-block;
   fill: currentColor;
   margin-right: 10px;
-}
-
-.connection-mail:hover,
-.connection-mail:focus {
-  color: var(--accent-color);
-}
-
-.connection-tel:hover,
-.connection-tel:focus {
-  color: var(--accent-color);
 }

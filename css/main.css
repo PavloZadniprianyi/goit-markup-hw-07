@@ -46,7 +46,6 @@ textarea {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-
 .logo-accent {
   color: var(--text-color);
 }
@@ -57,7 +56,6 @@ textarea {
   display: flex;
   margin-left: auto;
 }
-
 .connection-list .connection-item + .connection-item {
   margin-left: 50px;
 }
@@ -74,22 +72,17 @@ textarea {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.connection-mail:hover, .connection-mail:focus,
+.connection-tel:hover,
+.connection-tel:focus {
+  color: var(--accent-color);
+}
 
 .mail-icon,
 .smartphone-icon {
   display: inline-block;
   fill: currentColor;
   margin-right: 10px;
-}
-
-.connection-mail:hover,
-.connection-mail:focus {
-  color: var(--accent-color);
-}
-
-.connection-tel:hover,
-.connection-tel:focus {
-  color: var(--accent-color);
 }
 
 .teammate-soc-list {
@@ -106,7 +99,6 @@ textarea {
   height: 44px;
   margin-right: 10px;
 }
-
 .teammate-soc-item :last-child {
   margin-right: 0px;
 }
@@ -129,6 +121,12 @@ textarea {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.teammate-soc-link:hover, .teammate-soc-link:focus {
+  background-color: var(--accent-color);
+}
+.teammate-soc-link:hover .teammate-soc-icon, .teammate-soc-link:focus .teammate-soc-icon {
+  fill: var(--third-text-color);
+}
 
 .teammate-soc-icon {
   fill: rgb(175, 177, 184);
@@ -136,16 +134,6 @@ textarea {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.teammate-soc-link:hover,
-.teammate-soc-link:focus {
-  background-color: var(--accent-color);
-}
-
-.teammate-soc-link:hover .teammate-soc-icon,
-.teammate-soc-link:focus .teammate-soc-icon {
-  fill: var(--third-text-color);
 }
 
 .container {
@@ -159,17 +147,14 @@ textarea {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-.benefits-list {
+.benefits .benefits-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
-.benefits-list .benefits-item + .benefits-item {
+.benefits .benefits-list .benefits-item + .benefits-item {
   margin-left: 30px;
 }
-
 .benefits-features {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -180,7 +165,6 @@ textarea {
   text-transform: uppercase;
   color: var(--text-color);
 }
-
 .benefits-bottom-text {
   margin: 0px;
   font-size: 14px;
@@ -262,7 +246,6 @@ textarea {
 .about {
   background-color: var(--promo-background-color);
 }
-
 .about-title {
   margin-top: 0px;
   margin-bottom: 50px;
@@ -273,24 +256,17 @@ textarea {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-
 .about-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
-.about-list .about-item + .about-item {
-  margin-left: 30px;
-}
-
 .about-item {
   background-color: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .about-name {
   margin: 0px;
   margin-bottom: 10px;
@@ -301,7 +277,6 @@ textarea {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-
 .about-bottom-text {
   margin: 0px;
   font-size: 16px;
@@ -311,7 +286,6 @@ textarea {
   color: var(--second-text-color);
   margin-bottom: 16px;
 }
-
 .about-card {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -321,7 +295,6 @@ textarea {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .clients-title {
   margin-top: 0px;
   margin-bottom: 50px;
@@ -332,13 +305,11 @@ textarea {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-
 .clients-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .clients-list .clients-item + .clients-item {
   margin-left: 30px;
 }
@@ -363,6 +334,9 @@ textarea {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.background-clients:hover, .background-clients:focus {
+  border-color: var(--accent-color);
+}
 
 .clients-icon {
   fill: rgb(175, 177, 184);
@@ -370,16 +344,6 @@ textarea {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.background-clients:hover,
-.background-clients:focus {
-  border-color: var(--accent-color);
-}
-
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
-  fill: var(--accent-color);
 }
 
 .clients-link {
@@ -394,6 +358,9 @@ textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.clients-link:hover .clients-icon, .clients-link:focus .clients-icon {
+  fill: var(--accent-color);
 }
 
 .footer-address {
@@ -418,6 +385,9 @@ textarea {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-link-adress:hover, .footer-link-adress:focus {
+  color: var(--accent-color);
+}
 
 .footer-mail,
 .footer-tel {
@@ -430,17 +400,7 @@ textarea {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-link-adress:hover,
-.footer-link-adress:focus {
-  color: var(--accent-color);
-}
-
-.footer-mail:hover,
-.footer-mail:focus {
-  color: var(--accent-color);
-}
-
+.footer-mail:hover, .footer-mail:focus,
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accent-color);
