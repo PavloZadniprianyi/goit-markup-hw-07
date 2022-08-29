@@ -12,4 +12,12 @@
       &-accent {
       color: var(--text-color);
     }
+    &-footer {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+
+    &-color {
+    color: var(--hero-text-color);
+  }
 }
