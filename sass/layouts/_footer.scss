@@ -57,8 +57,7 @@
       height: 100%;
       border-radius: 50%;
       background-color: rgba(255, 255, 255, 0.1);
-      transition-duration: 250ms;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      @include animation;
           &:hover,
           &:focus {
           background-color: var(--accent-color);
@@ -72,8 +71,7 @@
     
       &-soc-icon {
       fill: var(--third-text-color);
-      transition-duration: 250ms;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      @include animation;
     }
 }
 
