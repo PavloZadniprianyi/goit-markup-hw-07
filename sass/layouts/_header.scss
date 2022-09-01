@@ -5,20 +5,21 @@
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
-      &-nav .link.current {
+  
+      .link.current {
       color: var(--accent-color);
     }
     
-      &-list {
+      .navigation__list {
       display: flex;
       margin-left: 93px;
     }
     
-      &-list .header-item + .header-item {
+      .navigation__list .navigation__item + .navigation__item {
       margin-left: 50px;
     }
     
-      &-link {
+      .navigation__link {
       display: block;
       padding-top: 32px;
       padding-bottom: 32px;
@@ -39,7 +40,7 @@
     }
 }
 
-.main-nav {
+.header__nav {
   display: flex;
   align-items: center;
 }
