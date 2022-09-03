@@ -1,13 +1,13 @@
-.connection-list {
+.connection {
   display: flex;
   margin-left: auto;
-      & .connection-item + .connection-item {
+      & .connection__item + .connection__item {
       margin-left: 50px;
     }
 }
 
-.connection-mail,
-.connection-tel {
+.mail,
+.tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -20,8 +20,8 @@
     }
 }
 
-.mail-icon,
-.smartphone-icon {
+.mail__icon,
+.tel__icon {
   display: inline-block;
   fill: currentColor;
   margin-right: 10px;

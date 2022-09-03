@@ -62,18 +62,18 @@ textarea {
   color: var(--hero-text-color);
 }
 
-.connection-list {
+.connection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
 }
-.connection-list .connection-item + .connection-item {
+.connection .connection__item + .connection__item {
   margin-left: 50px;
 }
 
-.connection-mail,
-.connection-tel {
+.mail,
+.tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -84,14 +84,14 @@ textarea {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.connection-mail:hover, .connection-mail:focus,
-.connection-tel:hover,
-.connection-tel:focus {
+.mail:hover, .mail:focus,
+.tel:hover,
+.tel:focus {
   color: var(--accent-color);
 }
 
-.mail-icon,
-.smartphone-icon {
+.mail__icon,
+.tel__icon {
   display: inline-block;
   fill: currentColor;
   margin-right: 10px;
@@ -633,7 +633,6 @@ textarea {
 
 .header {
   max-width: 1600px;
-  margin: 0px auto;
   display: block;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -670,7 +669,7 @@ textarea {
   color: var(--accent-color);
 }
 
-.header__nav {
+.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
