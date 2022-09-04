@@ -266,6 +266,8 @@ textarea {
 }
 
 .about {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--promo-background-color);
 }
 .about__title {
@@ -651,7 +653,6 @@ textarea {
 }
 
 .header {
-  max-width: 1600px;
   display: block;
   border-bottom-width: 1px;
   border-bottom-style: solid;
